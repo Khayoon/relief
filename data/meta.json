@@ -1,0 +1,142 @@
+{
+ "version": "9f95434326da",
+ "generatedAt": "2026-11-03T00:17:56.817Z",
+ "count": 1331,
+ "byCity": {
+  "Toronto": 779,
+  "Oshawa": 65,
+  "Georgina": 21,
+  "Caledon": 14,
+  "Richmond Hill": 22,
+  "Halton Hills": 12,
+  "Mississauga": 116,
+  "Milton": 21,
+  "Markham": 24,
+  "Brampton": 37,
+  "Clarington": 25,
+  "Whitby": 55,
+  "Oakville": 34,
+  "Burlington": 32,
+  "Vaughan": 40,
+  "Pickering": 9,
+  "Newmarket": 5,
+  "Scugog": 5,
+  "King": 2,
+  "Aurora": 7,
+  "Ajax": 3,
+  "Uxbridge": 3
+ },
+ "bySource": {
+  "osm": 1152,
+  "toronto_parks": 355,
+  "toronto_library": 82,
+  "whitby": 43,
+  "mississauga": 21,
+  "toronto_museums": 10,
+  "toronto_crem": 11,
+  "toronto_apt": 4
+ },
+ "sources": [
+  {
+   "id": "toronto_parks",
+   "name": "Park Washroom Facilities",
+   "publisher": "City of Toronto — Parks, Forestry & Recreation",
+   "license": "Open Government Licence – Toronto",
+   "licenseUrl": "https://open.toronto.ca/open-data-licence/",
+   "attribution": "Contains information licensed under the Open Government Licence – Toronto.",
+   "homepage": "https://open.toronto.ca/dataset/washroom-facilities/",
+   "refresh": "Daily, including open/closed status",
+   "fetchedAt": "2026-11-02T20:06:33.817Z",
+   "records": 355
+  },
+  {
+   "id": "toronto_crem",
+   "name": "Corporate Real Estate Management Portfolio Washrooms",
+   "publisher": "City of Toronto — Corporate Real Estate Management",
+   "license": "Open Government Licence – Toronto",
+   "licenseUrl": "https://open.toronto.ca/open-data-licence/",
+   "attribution": "Contains information licensed under the Open Government Licence – Toronto.",
+   "homepage": "https://open.toronto.ca/dataset/corporate-real-estate-management-portfolio-washrooms/",
+   "refresh": "As available",
+   "fetchedAt": "2026-11-02T20:47:54.045Z",
+   "note": "2 rooms skipped (not public)",
+   "records": 11
+  },
+  {
+   "id": "toronto_library",
+   "name": "Library Branch General Information",
+   "publisher": "Toronto Public Library",
+   "license": "Open Government Licence – Toronto",
+   "licenseUrl": "https://open.toronto.ca/open-data-licence/",
+   "attribution": "Contains information licensed under the Open Government Licence – Toronto.",
+   "homepage": "https://open.toronto.ca/dataset/library-branch-general-information/",
+   "refresh": "Annually (hours as published)",
+   "fetchedAt": "2026-11-02T20:06:35.500Z",
+   "records": 82
+  },
+  {
+   "id": "toronto_apt",
+   "name": "Street Furniture – Automated Public Washroom",
+   "publisher": "City of Toronto — Transportation Services",
+   "license": "Open Government Licence – Toronto",
+   "licenseUrl": "https://open.toronto.ca/open-data-licence/",
+   "attribution": "Contains information licensed under the Open Government Licence – Toronto.",
+   "homepage": "https://open.toronto.ca/dataset/street-furniture-public-washroom/",
+   "refresh": "Semi-annually",
+   "fetchedAt": "2026-11-02T20:06:35.955Z",
+   "records": 4
+  },
+  {
+   "id": "toronto_museums",
+   "name": "Museums and Cultural Centres",
+   "publisher": "City of Toronto — Economic Development & Culture",
+   "license": "Open Government Licence – Toronto",
+   "licenseUrl": "https://open.toronto.ca/open-data-licence/",
+   "attribution": "Contains information licensed under the Open Government Licence – Toronto.",
+   "homepage": "https://open.toronto.ca/dataset/museums-and-cultural-centres/",
+   "refresh": "As available",
+   "fetchedAt": "2026-11-02T20:06:36.349Z",
+   "records": 10
+  },
+  {
+   "id": "mississauga",
+   "name": "City Public Washrooms",
+   "publisher": "City of Mississauga",
+   "license": "City of Mississauga Open Data Terms of Use",
+   "licenseUrl": "http://www5.mississauga.ca/research_catalogue/CityofMississauga_TermsofUse.pdf",
+   "attribution": "Contains data made available by the City of Mississauga under its Open Data Terms of Use.",
+   "homepage": "https://data.mississauga.ca/",
+   "refresh": "As available",
+   "fetchedAt": "2026-11-02T20:06:51.990Z",
+   "records": 21
+  },
+  {
+   "id": "whitby",
+   "name": "Parks (points)",
+   "publisher": "Town of Whitby",
+   "license": "Open Government Licence – The Corporation of the Town of Whitby",
+   "licenseUrl": "https://whitby.maps.arcgis.com/sharing/rest/content/items/223810efc31c40b3aff99dd74f809a97/data",
+   "attribution": "Contains information licensed under the Open Government Licence – The Corporation of the Town of Whitby.",
+   "homepage": "https://opendata.whitby.ca/",
+   "refresh": "As available",
+   "fetchedAt": "2026-11-02T20:06:52.825Z",
+   "records": 43
+  },
+  {
+   "id": "osm",
+   "name": "OpenStreetMap",
+   "publisher": "OpenStreetMap contributors",
+   "license": "Open Database License (ODbL) 1.0",
+   "licenseUrl": "https://www.openstreetmap.org/copyright",
+   "attribution": "© OpenStreetMap contributors",
+   "homepage": "https://www.openstreetmap.org/",
+   "refresh": "Daily (community-maintained)",
+   "fetchedAt": "2026-11-02T20:19:43.020Z",
+   "note": "20 private or disused toilets skipped",
+   "records": 1203
+  }
+ ],
+ "warnings": [
+  "2 possible duplicate pairs (same name within 15 m) — review conflation."
+ ]
+}
