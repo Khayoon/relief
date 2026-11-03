@@ -2,10 +2,10 @@
  * App shell: cache-first. Washroom data: network-first with an offline copy.
  * Map tiles/fonts: cache-first with a size cap. Contributions: never cached. */
 
-const VERSION = "mw01880t";
+const VERSION = "mw01vc7w";
 // Base path of this deployment ('' at a domain root, '/relief-gta' on a sub-path).
 const BASE = new URL(self.registration ? self.registration.scope : new URL('./', self.location.href).href).pathname.replace(/\/$/, '');
-const PRECACHE = ["/","/index.html","/manifest.webmanifest","/icon.svg","/assets/index-CKXi72ap.css","/assets/index-CV3i3uK2.js"].map((p) => BASE + p);
+const PRECACHE = ["/","/index.html","/manifest.webmanifest","/icon.svg","/assets/index-B8KYSXVk.css","/assets/index-BmdJs49z.js"].map((p) => BASE + p);
 const SHELL = `relief-shell-${VERSION}`;
 const DATA = 'relief-data-v1';
 const TILES = 'relief-tiles-v1';
