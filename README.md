@@ -1,4 +1,4 @@
-# Relief — free public washrooms in Toronto & the GTA
+# Public Washroom Finder — free public washrooms in Toronto & the GTA
 
 Live site: https://khayoon.github.io/relief/
 

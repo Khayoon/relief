@@ -1,6 +1,6 @@
 {
-  "name": "Relief — free washrooms in Toronto & the GTA",
-  "short_name": "Relief",
+  "name": "Public Washroom Finder — Toronto & the GTA",
+  "short_name": "Washrooms",
   "description": "Find the nearest free public washroom, whether it's likely open, and how to get in.",
   "start_url": "./",
   "scope": "./",
